@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(114 114 114);
+    padding-top: 4%;
+    padding-bottom: 5%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    background-color: #212121;
+    padding: 10px 0px;
+    margin-bottom: 22px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mainDiv{
+    width: 50%;
+    margin: auto;
+    background-color: #434343;
+    padding-bottom: 33px;
+}
+.bigButton{
+    display: block;
+    font-size: 32px;
+    margin: auto;
+    background-color: #8e30a8;
+    color: white;
+    padding: 4px 72px;
+    border-radius: 9px;
+    margin-bottom: 50px;
+}
+.removeBtn{
+    display: block;
+    margin: auto;
+    padding: 3px 19px;
+    margin-top: -33px;
+}
+.form{
+    background-color: #7a7a7a;
+    width: 82%;
+    height: 52px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 79%), 0 6px 20px 0 rgb(0 0 0 / 8%);
+    color: white;
+    padding-top: 7px;
+    font-size: 22px;
+    padding-left: 17px;
+}
+.form input{
+    width: 81%;
+    background-color: #7a7a7a;
+    border: none;
+    color: white;
+}
+.addOptionBtn{
+    float: right;
+    padding: 13px 13px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
   }
+.options{
+    background-color: #7a7a7a;
+    width: 82%;
+    height: 52px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 79%), 0 6px 20px 0 rgb(0 0 0 / 8%);
+    color: white;
+    padding-top: 7px;
+    font-size: 22px;
+    padding-left: 17px;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subRemoveBtn{
+    float: right;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: -7px;
 }
-
-.App-link {
-  color: #61dafb;
+.error{
+    font-size: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal{
+    background: rgba(0,0,0,0.3);
+}
+.modal-content {
+    margin-top:50%;
+    background-color: rgb(186, 186, 186);
+}
+.modal-header{
+    background-color: #8e30a8;
+    color: white;
+}
+.modal-body{
+    background-color: #838383;
+    font-size: 25px;
 }
